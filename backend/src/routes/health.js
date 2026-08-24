@@ -1,8 +1,8 @@
 const express = require('express');
 
-const router = express.Router();
+const router = express.Router(); // endpointleri ayrı dosyalarda duzenlemek için router oluşturuyoruz
 
-router.get('/', (req, res) => {
+router.get('/', (req, res) => { // GET /health
   res.json({
     status: 'ok',
     message: 'Backend is healthy',
