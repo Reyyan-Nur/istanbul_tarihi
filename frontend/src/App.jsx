@@ -6,8 +6,7 @@ function App() {
   return (
     <main className="app">
       <header className="app-header">
-        <h1>İstanbul Tarihi ve Kültürel Mekânlar</h1>
-        <p>İstanbul'un tarihî ve kültürel mekânlarını harita üzerinde keşfedin.</p>
+        <h1>İstanbul Tarihi ve Kültürel Yerler</h1>
       </header>
 
       <MapView />
